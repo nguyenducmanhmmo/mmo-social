@@ -1,0 +1,34 @@
+.message {
+    width: 600px;
+    height: auto;
+
+    .show-new-button {
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-top: 15px;
+        animation-name: fadeIn;
+        animation-duration: 0.5s;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 2px;
+        background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+
+        a {
+            display: block;
+            height: inherit;
+            line-height: inherit;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+         }
+     }
+ }
+
+ @keyframes fadeIn {
+    from {
+       opacity: 0;
+    }
+    to {
+       opacity: 100;
+    }
+ }

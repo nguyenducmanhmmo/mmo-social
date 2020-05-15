@@ -1,0 +1,53 @@
+.comment-input {
+    padding: 10px 20px;
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .user-avatar {
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+        overflow: hidden;
+
+        img {
+            width: inherit;
+            height: inherit;
+         }
+     }
+
+     form {
+        width: 93%;
+        display: inherit;
+        justify-content: inherit;
+
+        input {
+            padding: 10px;
+            width: 85%;
+            border: 0;
+            outline: none;
+         }
+
+        .submit-button {
+            width: auto;
+            cursor: pointer;
+            padding: 0 15px;
+            border: 0;
+            background: transparent;
+
+            &::before {
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                content: "\f3be";
+                color: #9a85d2;
+                font-size: 18px;
+             }
+
+            &:hover {
+                background: rgba(182, 167, 222, 0.4);
+             }
+         }
+
+     }
+ }

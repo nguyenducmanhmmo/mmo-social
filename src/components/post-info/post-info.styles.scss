@@ -1,0 +1,38 @@
+.post-info {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    a {
+        display: flex;
+        width: 140px;
+        justify-content: center;
+        text-decoration: none;
+        color: #604d92;
+        padding: 5px 0;
+
+        .icon {
+            margin-right: 10px;
+         }
+
+         &:hover {
+            background: rgba(182, 167, 222, 0.4);
+         }
+     }
+
+    .views {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: grey;
+        padding: 5px 0;
+        text-align: center;
+        padding: 5px 0;
+        width: 140px;
+
+        .icon {
+            margin-right: 10px;
+         }
+     }
+ }

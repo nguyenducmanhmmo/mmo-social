@@ -1,0 +1,49 @@
+.comments-wrapper {
+  padding: 20px;
+
+  &:last-child {
+    border: 0;
+  }
+
+  .comment {
+    animation-duration: 0.3s;
+    animation-name: fadeIn;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 5px;
+
+    .user-avatar {
+      width: 35px;
+      height: 35px;
+      border-radius: 100px;
+      overflow: hidden;
+    }
+
+    .user-avatar img {
+      width: inherit;
+      height: inherit;
+    }
+
+    .user-data {
+      max-width: 90%;
+      overflow: hidden;
+      margin-left: 10px;
+    }
+
+    .comment-text {
+      color: #2f2f2f;
+      font-size: 0.9rem;
+      word-break: break-all;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
